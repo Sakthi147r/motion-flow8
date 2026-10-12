@@ -1,0 +1,7 @@
+services:
+  web:
+    build: .
+    container_name: motion-flow8-app
+    restart: unless-stopped
+    ports:
+      - "80:80"
